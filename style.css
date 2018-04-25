@@ -1,0 +1,77 @@
+#banner {
+	text-align: center;
+	background-image: url(images/coffee.jpg);
+	color: white;
+	background-size: cover;
+	padding: 100px;
+	margin-bottom: 20px;
+}
+img {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.card {
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2e3d4d;
+  text-align: center;
+  background-color: #E3E2E2;
+}
+a {
+	margin-top: 5px;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	 background-color: black;
+	color: black;
+
+	text-align: center;
+	padding: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid grey;
+  position:fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.item {
+  color: grey;
+  font-family: arial;
+  text-decoration: none;
+
+}
+
+.item:hover {
+  color: black;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+}
+.mc_embed_signup {
+  color: black;
+}
